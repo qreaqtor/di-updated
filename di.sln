@@ -1,6 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "di", "FractalPainter/di.csproj", "{4B70F6B3-5C20-40D2-BFC9-D95C18D65DD6}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35521.163 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "di", "FractalPainter\di.csproj", "{4B70F6B3-5C20-40D2-BFC9-D95C18D65DD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TagCloud", "TagCloud\TagCloud.csproj", "{604D58F7-F220-4F8F-9837-A0C3EF11C623}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TagCloudTests", "TagCloudTests\TagCloudTests.csproj", "{0C03B60C-46C4-4C3D-B80C-A118FFCF6513}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +19,16 @@ Global
 		{4B70F6B3-5C20-40D2-BFC9-D95C18D65DD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B70F6B3-5C20-40D2-BFC9-D95C18D65DD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B70F6B3-5C20-40D2-BFC9-D95C18D65DD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{604D58F7-F220-4F8F-9837-A0C3EF11C623}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{604D58F7-F220-4F8F-9837-A0C3EF11C623}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{604D58F7-F220-4F8F-9837-A0C3EF11C623}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{604D58F7-F220-4F8F-9837-A0C3EF11C623}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C03B60C-46C4-4C3D-B80C-A118FFCF6513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C03B60C-46C4-4C3D-B80C-A118FFCF6513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C03B60C-46C4-4C3D-B80C-A118FFCF6513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C03B60C-46C4-4C3D-B80C-A118FFCF6513}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
